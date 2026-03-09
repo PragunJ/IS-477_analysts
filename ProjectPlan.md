@@ -1,4 +1,4 @@
-**Overview**
+## Overview
 
 *Describe the overall goal of your project and your planned approach to achieve it. Explain what you aim to accomplish and outline the main steps or methods you will use to execute the project (max 250 words).*
 
@@ -10,7 +10,7 @@ After collecting the data, we will clean and standardize the datasets to ensure 
 
 Finally, we will apply quantitative analysis techniques such as correlation analysis and regression models to evaluate the strength of these relationships. We will also create visualizations, including time-series graphs, scatter plots, and comparative charts to clearly illustrate patterns and changes across countries and over time.
 
-**Team**
+## Team
 
 *Clearly define team member roles and responsibilities.*
 
@@ -33,7 +33,7 @@ Responsibilities include:
 
 Both team members will collaborate on the final report writing, interpretation of results, and project presentation.
 
-**Research Questions**  
+## Research Questions
 *What is/are the question(s) you intend to address? These could be research questions, business questions, or analytical questions you want to answer through data analysis.*
 
 **Our project aims to address the following questions:**
@@ -43,13 +43,13 @@ Both team members will collaborate on the final report writing, interpretation o
 * Do countries with stronger energy supply systems tend to show higher agricultural output and employment rates?  
 * How have these relationships evolved over time across different regions?
 
-**Datasets**
+## Datasets
 
 *Identify and describe the datasets you will use to answer your question(s). You need to use **at least two different datasets** that complement each other and **can be** **integrated together**. The datasets should each contribute different but related information needed to **address your questions**, and they must share common attributes or identifiers that allow you to link them. For example, if one dataset contains demographic information and another contains economic indicators, they should both include geographic codes or time periods that enable meaningful integration.If you need help finding suitable datasets, start by reviewing the [list of datasets provided in class](https://docs.google.com/document/d/171zIAytwR9oD9tVIzJdqgqnHotFcEDLx56KkbSSIOR4/edit?tab=t.0#heading=h.lzvxkydu0ozk).* 
 
 We use datasets obtained from the **United Nations Data Portal (UNdata)**.
 
-### **1\. Agricultural Index Dataset**
+ **1\. Agricultural Index Dataset**
 
 This dataset contains agricultural production index values by country and year. The index measures changes in agricultural output relative to a base period.
 
@@ -60,7 +60,7 @@ This dataset contains agricultural production index values by country and year. 
 * Series (Agricultural production or Food production)  
 * Production index
 
-### **2\. Employment Dataset**
+ **2\. Employment Dataset**
 
 This dataset provides employment statistics across countries and time.
 
@@ -71,7 +71,7 @@ This dataset provides employment statistics across countries and time.
 * Series (Agricultural, Industry, or Services)  
 * Employment percentage
 
-### **3\. Energy Production and Supply Dataset**
+ **3\. Energy Production and Supply Dataset**
 
 This dataset includes information about national energy production and supply levels.
 
@@ -82,7 +82,7 @@ This dataset includes information about national energy production and supply le
 * Series (Primary energy production, Net imports \[Imports \- Exports \- Bunkers\], Changes in stocks)  
 * Energy in petajoules
 
-### **4\. GDP and GDP Per Capita Dataset**
+ **4\. GDP and GDP Per Capita Dataset**
 
 This dataset includes economic indicators used to measure national development.
 
@@ -95,7 +95,7 @@ This dataset includes economic indicators used to measure national development.
 
 All datasets include country identifiers and time periods, allowing them to be merged using Country \+ Year. Combining these datasets will allow us to analyze how economic output, energy production, employment, and agriculture interact across countries and over time.
 
-**Timeline**
+## Timeline
 
 *Provide a draft of the plan and timeline for completing your project. Include a list of specific tasks you need to accomplish, a brief description of each task, when each task will be completed, and who will be responsible for completing it.*
 
@@ -109,7 +109,7 @@ All datasets include country identifiers and time periods, allowing them to be m
 | Week 13 | Interpretation | Analyze results and draft conclusions | Whole Team |
 | Week 14 | Final Report & Presentation | Compile report and prepare presentation | Whole Team |
 
-**Constraints**
+## Constraints
 
 *Describe any known limitations or challenges with your datasets or approach. These might include legal or ethical restrictions, unknown data provenance, technical difficulties in processing the data, issues with data completeness, limited temporal or spatial coverage, accessibility barriers, or other relevant concerns that could affect your work.*
 
@@ -120,7 +120,7 @@ Several limitations may affect the analysis:
 * **Temporal Coverage:** Some datasets cover different time ranges.  
 * **Aggregation Issues:** National-level data may hide regional variation within countries.
 
-**Gaps**
+## Gaps
 
 *Identify any known gaps or areas where you need additional input.*
 
