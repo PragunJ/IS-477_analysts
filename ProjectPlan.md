@@ -6,7 +6,7 @@ The goal of this project is to investigate the relationships between **economic 
 
 To accomplish this objective, we will integrate several datasets obtained from the **United Nations Data Portal (UNdata)**, including datasets on [Energy production, trade and consumption](https://data.un.org/_Docs/SYB/CSV/SYB68_263_202511_Production,%20Trade%20and%20Supply%20of%20Energy.csv), [GDP and GDP per capita](https://data.un.org/_Docs/SYB/CSV/SYB68_230_202511_GDP%20and%20GDP%20Per%20Capita.csv). These datasets share common attributes such as country identifiers and year, which makes it possible to merge them into a single dataset for analysis.
 
-After collecting the data, we will clean and standardize the datasets to ensure that country names, country codes, time periods, and measurement units are consistent across sources. Once the datasets are merged, we will conduct exploratory data analysis to identify trends, patterns, and possible relationships between energy production, employment levels, agricultural productivity, and economic output.
+After collecting the data, we will clean and standardize the datasets to ensure that country names, country codes, time periods, and measurement units are consistent across sources. Once the datasets are merged, we will conduct exploratory data analysis to identify trends, patterns, and possible relationships between energy production and economic output.
 
 Finally, we will apply quantitative analysis techniques such as correlation analysis and regression models to evaluate the strength of these relationships. We will also create visualizations, including time-series graphs, scatter plots, and comparative charts to clearly illustrate patterns and changes across countries and over time.
 
@@ -38,11 +38,8 @@ Both team members will collaborate on the final report writing, interpretation o
 
 **Our project aims to address the following questions:**
 
-* How does energy production relate to GDP per capita across countries?  
-* Is there a relationship between employment levels and national economic productivity?  
-* Do countries with stronger energy supply systems tend to show higher agricultural output and employment rates?  
-* How have these relationships evolved over time across different regions?
-
+* How does energy production relate to GDP per capita across countries?
+  
 ## Datasets
 
 *Identify and describe the datasets you will use to answer your question(s). You need to use **at least two different datasets** that complement each other and **can be** **integrated together**. The datasets should each contribute different but related information needed to **address your questions**, and they must share common attributes or identifiers that allow you to link them. For example, if one dataset contains demographic information and another contains economic indicators, they should both include geographic codes or time periods that enable meaningful integration.If you need help finding suitable datasets, start by reviewing the [list of datasets provided in class](https://docs.google.com/document/d/171zIAytwR9oD9tVIzJdqgqnHotFcEDLx56KkbSSIOR4/edit?tab=t.0#heading=h.lzvxkydu0ozk).* 
