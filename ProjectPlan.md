@@ -49,29 +49,7 @@ Both team members will collaborate on the final report writing, interpretation o
 
 We use datasets obtained from the **United Nations Data Portal (UNdata)**.
 
- **1\. Agricultural Index Dataset**
-
-This dataset contains agricultural production index values by country and year. The index measures changes in agricultural output relative to a base period.
-
-**Key variables**
-
-* Country  
-* Year  
-* Series (Agricultural production or Food production)  
-* Production index
-
- **2\. Employment Dataset**
-
-This dataset provides employment statistics across countries and time.
-
-**Key variables**
-
-* Country  
-* Year  
-* Series (Agricultural, Industry, or Services)  
-* Employment percentage
-
- **3\. Energy Production and Supply Dataset**
+ **1\. Energy Production and Supply Dataset**
 
 This dataset includes information about national energy production and supply levels.
 
@@ -82,7 +60,7 @@ This dataset includes information about national energy production and supply le
 * Series (Primary energy production, Net imports \[Imports \- Exports \- Bunkers\], Changes in stocks)  
 * Energy in petajoules
 
- **4\. GDP and GDP Per Capita Dataset**
+ **2\. GDP and GDP Per Capita Dataset**
 
 This dataset includes economic indicators used to measure national development.
 
