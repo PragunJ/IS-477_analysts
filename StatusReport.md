@@ -1,10 +1,10 @@
-## 1. Project Overview
+## Project Overview
 
 Our project analyzes the relationship between **energy production and economic development**, measured by GDP per capita across regions. By integrating datasets from the United Nations Data Portal, we aim to understand how different aspects of energy availability and usage are associated with economic output.
 
 At this stage, our project has progressed beyond data preparation and into the analysis phase. We have completed data collection, cleaning, and integration, and have already conducted preliminary exploratory analysis and regression modeling. Our current focus is on interpreting results and refining our findings.
 
-## 2. Current Progress
+## Current Progress
 
 ### Dataset Collection (Completed)
 
@@ -83,7 +83,7 @@ These visualizations help highlight both the strength of relationships and diffe
 We are currently interpreting our results and refining our conclusions. This includes analysing statistical findings with economic reasoning and preparing the final report.
 
 
-## 3. Updated Timeline
+## Updated Timeline
 
 | Task | Status | Completion |
 |------|--------|-----------|
@@ -97,7 +97,7 @@ We are currently interpreting our results and refining our conclusions. This inc
 | Final Report | Not Started | Week 14 |
 
 
-## 4. Changes to Project Plan
+## Changes to Project Plan
 
 Based on our progress, we made several adjustments to improve feasibility and clarity.
 
@@ -110,7 +110,7 @@ In addition, we shifted from country-level analysis to **continent-level aggrega
 These changes significantly improved the clarity and manageability of the project.
 
 
-## 5. Challenges and Solutions
+## Challenges and Solutions
 
 ### Data Formatting Issues
 
@@ -142,7 +142,7 @@ The initial scope was too broad and difficult to execute.
 After discussion with TA, we narrowed the focus to key variables and used continent-level aggregation.
 
 
-## 6. Team Member Contributions
+## Team Member Contributions
 
 #### Cynthia (Data Analysis & Visualization)
 
