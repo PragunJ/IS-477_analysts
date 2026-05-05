@@ -1,5 +1,5 @@
-Minimum dependencies required to run our scripts
-Tested on: Python 3.11, Google Colab (Spring 2026)
+# Minimum dependencies required to run our scripts
+# Tested on: Python 3.11, Google Colab (Spring 2026)
  
 pandas~=2.2.0
 numpy~=2.0.0
