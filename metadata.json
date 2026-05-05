@@ -1,0 +1,146 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Dataset",
+  "name": "A Cross-Continental Analysis on Energy Production and Economic Development",
+  "description": "An integrated dataset and analysis examining the relationship between energy production, energy supply, and GDP per capita across the six major UN continental aggregates (Africa, Asia, Europe, Latin America & Caribbean, North America, Oceania) from 1995 to 2022. The analysis dataset is constructed by inner-joining two UNdata source CSVs on continent and year, yielding 36 observations (6 continents × 6 common years).",
+  "keywords": [
+    "energy production",
+    "energy supply",
+    "GDP",
+    "GDP per capita",
+    "energy intensity",
+    "continental aggregates",
+    "United Nations",
+    "UNdata",
+    "data integration",
+    "economic development",
+    "OLS regression"
+  ],
+  "creator": [
+    {
+      "@type": "Person",
+      "name": "PJ",
+      "roleName": "Data Engineer"
+    },
+    {
+      "@type": "Person",
+      "name": "Cynthia",
+      "roleName": "Data Analyst & Visualization"
+    }
+  ],
+  "datePublished": "2026-05-06",
+  "version": "1.0.0",
+  "inLanguage": "en",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "isAccessibleForFree": true,
+  "codeRepository": "https://github.com/PragunJ/IS-477_analysts",
+  "spatialCoverage": {
+    "@type": "Place",
+    "name": "Six UN continental aggregates",
+    "description": "Africa (UN code 2), Oceania (9), North America (21), Asia (142), Europe (150), Latin America & Caribbean (419)"
+  },
+  "temporalCoverage": "1995/2022",
+  "variableMeasured": [
+    {
+      "@type": "PropertyValue",
+      "name": "gdp_current_musd",
+      "description": "GDP in current prices",
+      "unitText": "millions of US dollars"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "gdp_constant_musd",
+      "description": "GDP in constant 2015 prices",
+      "unitText": "millions of US dollars (2015 base)"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "gdp_per_capita_usd",
+      "description": "GDP per capita",
+      "unitText": "US dollars per person"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "gdp_growth_pct",
+      "description": "GDP real rates of growth",
+      "unitText": "percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "energy_production_pj",
+      "description": "Primary energy production",
+      "unitText": "petajoules"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "energy_supply_pj",
+      "description": "Total energy supply",
+      "unitText": "petajoules"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "energy_per_capita_gj",
+      "description": "Energy supply per capita",
+      "unitText": "gigajoules per person"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "net_imports_pj",
+      "description": "Net energy imports (imports − exports − bunkers)",
+      "unitText": "petajoules"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "stock_changes_pj",
+      "description": "Changes in energy stocks",
+      "unitText": "petajoules"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "energy_intensity",
+      "description": "Energy consumption per unit of economic output, computed as (energy_supply_pj / gdp_current_musd) × 1000",
+      "unitText": "petajoules per billion USD"
+    }
+  ],
+  "isBasedOn": [
+    {
+      "@type": "Dataset",
+      "name": "GDP and GDP Per Capita",
+      "creator": {
+        "@type": "Organization",
+        "name": "United Nations Statistics Division"
+      },
+      "url": "https://data.un.org/_Docs/SYB/CSV/SYB68_230_202511_GDP%20and%20GDP%20Per%20Capita.csv",
+      "identifier": "SYB68_230_202511",
+      "license": "https://data.un.org/Host.aspx?Content=UNdataUse",
+      "encodingFormat": "text/csv",
+      "sha256": "8091d7ba3b94ad60477a66cd41fd7b0a1dd1cafd5014ccda74f6c6032e9da9ac"
+    },
+    {
+      "@type": "Dataset",
+      "name": "Production, Trade and Supply of Energy",
+      "creator": {
+        "@type": "Organization",
+        "name": "United Nations Statistics Division"
+      },
+      "url": "https://data.un.org/_Docs/SYB/CSV/SYB68_263_202511_Production,%20Trade%20and%20Supply%20of%20Energy.csv",
+      "identifier": "SYB68_263_202511",
+      "license": "https://data.un.org/Host.aspx?Content=UNdataUse",
+      "encodingFormat": "text/csv",
+      "sha256": "425460565f23d953116e9233a3548d6e51ee2d4b14bc3348e6886aee3119ece2"
+    }
+  ],
+  "distribution": [
+    {
+      "@type": "DataDownload",
+      "encodingFormat": "text/csv",
+      "contentUrl": "Datasets/GDP and GDP Per Capita 2025.csv"
+    },
+    {
+      "@type": "DataDownload",
+      "encodingFormat": "text/csv",
+      "contentUrl": "Datasets/Energy Production and Supply Data.csv"
+    }
+  ],
+  "citation": "PJ and Cynthia (2026). A Cross-Continental Analysis on Energy Production and Economic Development. IS477 SP26 Final Project. https://github.com/PragunJ/IS-477_analysts"
+}
