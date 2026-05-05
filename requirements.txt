@@ -1,0 +1,8 @@
+Minimum dependencies required to run our scripts
+Tested on: Python 3.11, Google Colab (Spring 2026)
+ 
+pandas~=2.2.0
+numpy~=2.0.0
+matplotlib~=3.10.0
+seaborn~=0.13.0
+statsmodels~=0.14.0
