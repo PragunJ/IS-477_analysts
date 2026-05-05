@@ -10,8 +10,8 @@
 
 Because both team members typically authored content locally before pushing to GitHub, the Git commit history alone may not fully reflect each member's contributions. The detailed division of work was as follows:
 
-- **PJ** led data acquisition (programmatic CSV download from UNdata), data integrity checks (SHA-256), data cleaning (string-to-numeric conversion, continental aggregate filtering, long-to-wide pivoting), dataset integration (merge on continent + year), and workflow automation (`run_all.sh` script, environment specification).
-- **Cynthia** led exploratory data analysis, the OLS regression model, correlation matrix and heatmap visualization, time-series and scatter plot generation, interpretation of statistical results, and the Findings, Future Work, and Challenges sections of this report.
+- **PJ** led data acquisition (programmatic CSV download from UNdata), data integrity checks (SHA-256), data cleaning (string-to-numeric conversion, continental aggregate filtering, long-to-wide pivoting), and dataset integration (merge on continent + year). 
+- **Cynthia** led exploratory data analysis, the OLS regression model, correlation matrix and heatmap visualization, time-series and scatter plot generation, interpretation of statistical results, the Findings, Future Work, and Challenges sections of this report, and workflow automation (`run_all.sh` script, environment specification).
 - Both members jointly authored the Summary, Data Profile, Data Quality, and Data Cleaning sections, and reviewed the final report end-to-end.
 
 ---
